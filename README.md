@@ -10,6 +10,11 @@ Additions to the game
 
 * Added coal recipe to campfire 2 wood = 1 coal *requires cooking grill*
 * Added A17 barb wire recipe
+* Added new iron door variant block that can place:
+  * Iron Door
+  * Commercial Door 1
+  * Commercial Door 2
+  * Commercial Door 3
 
 ## Changes
 
@@ -41,8 +46,9 @@ The burpcraft server settings in the [./burpcraft.xml](./burpcraft.xml)
 
 ## Generated World
 
-We use a pregenerated world by using Nitrogen, the generated world can be found in [./GameData/GeneratedWorlds/burpcraft](./GameData/GeneratedWorlds/burpcraft).
-
 ## Additional Server Mods
 
 * [Allocs Server Fixes](https://7dtd.illy.bz/wiki/Server%20fixes)
+* [Grasscutter](https://www.nexusmods.com/7daystodie/mods/448)
+* [JunctionBox](https://www.nexusmods.com/7daystodie/mods/199)
+* [SurvivalHUD](https://www.nexusmods.com/7daystodie/mods/288)

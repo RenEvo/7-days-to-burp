@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<burpcraft>
+    <append xpath="/blocks">
+        <block name="ironDoorBlockVariantHelper">
+            <property name="Extends" value="ironDoor1_v1" />
+            <property name="CustomIcon" value="ironDoor1_v1" />
+            <property name="CreativeMode" value="Player" />
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
+            <property name="ItemTypeIcon" value="all_blocks" />
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="ironDoor1_v1,commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1" />
+            <property name="Group" value="Building,advBuilding" />
+        </block>
+    </append>
+</burpcraft>

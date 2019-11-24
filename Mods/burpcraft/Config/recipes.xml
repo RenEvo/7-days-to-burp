@@ -11,5 +11,10 @@
 		<recipe name="barbedWireSheet" count="1">
 			<ingredient name="resourceScrapIron" count="15"/>
 		</recipe>
+
+		<!-- Custom Variant Blocks -->
+		<recipe name="ironDoorBlockVariantHelper" count="1">
+			<ingredient name="resourceForgedIron" count="10" />
+		</recipe>
 	</append>
 </burpcraft>
