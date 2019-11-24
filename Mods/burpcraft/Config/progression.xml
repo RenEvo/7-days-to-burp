@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burpcraft>
+    <!-- XP -->
+    <set xpath="/progression/level/@experience_multiplier">1.01</set>
+    <set xpath="/progression/level/@clamp_exp_cost_at_level">300</set>
+
+    <!-- BACKPACK -->
+    <set xpath="/progression/perks/perk[@name='perkNightStalkerThiefAdrenaline']/effect_group/passive_effect[@name='CarryCapacity']/@value">39</set>
+
+</burpcraft>

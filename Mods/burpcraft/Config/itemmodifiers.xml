@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burpcraft>
+    <!-- Clothing Pocket: Single -->
+    <set xpath="/item_modifiers/item_modifier[@name='modClothingStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">2</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modClothingStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">2</set>
+
+    <!-- Clothing Pocket: Double -->
+    <set xpath="/item_modifiers/item_modifier[@name='modClothingCargoStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">4</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modClothingCargoStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">4</set>	
+
+    <!-- Armor Pocket: Double -->
+    <set xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">2</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">2</set>
+
+    <!-- Armor Pocket: Double -->
+    <set xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">4</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">4</set>
+
+    <!-- Armor Pocket: Triple -->
+    <set xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">6</set>
+    <set xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">6</set>
+
+</burpcraft>

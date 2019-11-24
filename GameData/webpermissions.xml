@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webpermissions>
+
+	<admintokens>
+		<!-- <token name="adminuser1" token="supersecrettoken" permission_level="0" /> -->
+	</admintokens>
+
+	<permissions>
+		<permission module="web.map" permission_level="2000" />
+		<permission module="webapi.getstats" permission_level="2000" />
+		<permission module="webapi.getplayersonline" permission_level="2000" />
+		<permission module="webapi.getplayerslocation" permission_level="2000" />
+		<permission module="webapi.getlandclaims" permission_level="2000" />
+		<permission module="webapi.viewallplayers" permission_level="2000" />
+		<permission module="webapi.viewallclaims" permission_level="2000" />
+	</permissions>
+
+</webpermissions>

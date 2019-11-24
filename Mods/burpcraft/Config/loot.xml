@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burpcraft>
+    <set xpath="/lootcontainers/lootcontainer[@id='2']/@size">10,10</set>
+
+    <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='resourceFeather']/@count">3,10</set>
+    <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest']/item[@name='foodEgg']/@prob">0.75</set>
+</burpcraft>

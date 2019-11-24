@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burpcraft>
+    <!-- BACKPACK: windowLooting -->
+    <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@rows">10</set>
+    <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@cols">10</set>
+
+    <!-- BACKPACK: windowBackpack -->
+    <set xpath="/windows/window[@name='windowBackpack']/@width">874</set>
+    <set xpath="/windows/window[@name='windowBackpack']/@height">416</set>
+    <setattribute xpath="/windows/window[@name='windowBackpack']/panel[@name='header']" name="width">100%</setattribute>
+    <setattribute xpath="/windows/window[@name='windowBackpack']/panel[@name='header']" name="pos">0,8</setattribute>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/label[@width='100']/@pos">740,-8</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/sprite[@name='costIcon']/@pos">845,-10</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">370</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@pos">0,-34</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">6</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">13</set>	
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">874</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">403</set>
+
+	<append xpath="/windows">
+		<!-- Extra Crafting an Queue Slot and row -->
+		<window name="windowCraftingQueueBurpcraft" width="397" height="78" panel="Left" cursor_area="true" >
+			<rect depth="0" pos="19,0" width="378" controller="CraftingQueue">
+				<grid name="queue" rows="2" cols="5" pos="3,3" cell_width="75" cell_height="75" repeat_content="true">
+					<recipe_stack name="0"/>
+				</grid>
+			</rect>
+		</window>
+	</append>
+</burpcraft>

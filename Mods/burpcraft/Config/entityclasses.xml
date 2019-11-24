@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burpcraft>
+ 	<!-- BACKPACK -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">39</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">78</set>
+	
+	<!-- Player Turret Track -->
+	<append xpath="/entity_classes/entity_class[@name='playerMale']/effect_group">
+		<passive_effect name="AnimalTracking" operation="base_set" value="1" tags="turret"/>
+	</append>	
+	
+	<!-- Turret Icon -->
+	<append xpath="/entity_classes/entity_class[@name='turretJunk']">
+		<property name="MapIcon" value="ui_game_symbol_electric_turret"/>
+		<property name="TrackerIcon" value="ui_game_symbol_electric_turret"/>
+	</append>
+	
+</burpcraft>

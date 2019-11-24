@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burpcraft>
+	<append xpath="/recipes">
+
+		<!-- Add recipe for coal -->
+		<recipe name="resourceCoal" count="1" craft_area="campfire" craft_tool="toolCookingGrill">
+			<ingredient name="resourceWood" count="2"/>
+		</recipe>
+
+		<!-- Add recipe for raw barb wire -->
+		<recipe name="barbedWireSheet" count="1">
+			<ingredient name="resourceScrapIron" count="15"/>
+		</recipe>
+	</append>
+</burpcraft>

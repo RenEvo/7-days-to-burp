@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burpcraft>
+    <!-- bicycle stuff -->
+	<set xpath="vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax']/@value">5,10</set>
+    <set xpath="vehicles/vehicle[@name='vehicleBicycle']/property[@name='hopForce']/@value">6</set>
+    <set xpath="vehicles/vehicle[@name='vehicleBicycle']/property[@name='motorTorqueMinQ']/@value">1000</set>
+    <set xpath="vehicles/vehicle[@name='vehicleBicycle']/property[@name='motorTorqueMaxQ']/@value">2000</set>
+    
+    <!-- minibike setuff -->
+	<set xpath="vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax']/@value">7,11</set>
+    <set xpath="vehicles/vehicle[@name='vehicleMinibike']/property[@class='engine']/property[@name='fuelKmPerL']/@value">0.8</set>
+
+    <!-- motorcycle stuff -->
+	<set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax']/@value">16,24</set>
+    <set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@class='engine']/property[@name='fuelKmPerL']/@value">0.6</set>
+    <set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='motorTorqueMinQ']/@value">4000</set>
+    <set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='motorTorqueMaxQ']/@value">5000</set>
+    <set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='tiltDampening']/@value">.65</set>
+    <set xpath="vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='tiltUpForce']/@value">8</set>
+
+    <!-- 4x4 stuff -->
+	<set xpath="vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='velocityMax']/@value">14,22</set>
+    <set xpath="vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='engine']/property[@name='fuelKmPerL']/@value">0.2</set>
+    <set xpath="vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='motorTorqueMinQ']/@value">5000</set>
+    <set xpath="vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='motorTorqueMaxQ']/@value">8000</set>
+
+    <!-- gyro stuff -->
+	<set xpath="vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='velocityMax']/@value">10,16</set>
+    <set xpath="vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='engine']/property[@name='fuelKmPerL']/@value">0.3</set>
+
+</burpcraft>

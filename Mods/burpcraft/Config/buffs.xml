@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<burpcraft>
+    <set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">78</set>
+    <set xpath="/buffs/buff[@name='buffEncumberedInv']/effect_group/triggered_effect[@cvar='$encumbranceEffect'][@operation='multiply']/@value">0.016</set>
+    <set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">78</set>
+
+</burpcraft>
