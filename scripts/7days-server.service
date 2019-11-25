@@ -4,15 +4,11 @@ After=network.target
 
 [Service]
 WorkingDirectory=/home/steam/7days/
-PrivateUsers=true
 User=steam
 Group=steam
-ProtectSystem=full
-ProtectHome=false
-ProtectKernelTunables=true
-ProtectControlGroups=true
 
 Environment="LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/steam/7days/7DaysToDieServer_Data/Plugins/x86_64"
+ExecStartPre=-/usr/bin/git pull
 ExecStart=/home/steam/7days/7DaysToDieServer.x86_64 -logfile /dev/stdout -quit -batchmode -nographics -dedicated -configfile /home/steam/7days/burpcraft.xml
 
 ExecReload=/bin/kill -HUP $MAINPID
