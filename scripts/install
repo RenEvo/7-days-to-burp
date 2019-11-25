@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp ./7days-server.service /usr/lib/systemd/system/7days-server.service
+systemctl daemon-reload
+systemctl enable 7days-server
