@@ -2,6 +2,12 @@
 /*.pdb
 /*.exe
 /*.vdf
+/7DaysToDieServer.x86
+/7DaysToDieServer.x86_64
+/libstdc++.so.6
+/startserver.sh
+/startserver.so
+
 /appcache/
 /steamapps
 /7DaysToDieServer_Data
