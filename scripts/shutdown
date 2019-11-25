@@ -1,3 +1,5 @@
+#!/snap/bin/expect -f
+
 set timeout 5
 set hostname localhost
 set port 18081

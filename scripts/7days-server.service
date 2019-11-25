@@ -12,7 +12,7 @@ ExecStartPre=-/usr/bin/git pull
 ExecStart=/home/steam/7days/7DaysToDieServer.x86_64 -logfile /dev/stdout -quit -batchmode -nographics -dedicated -configfile=/home/steam/7days/burpcraft-linux.xml
 
 ExecReload=/bin/kill -HUP $MAINPID
-ExecStop=/snap/bin/expect -f /home/steam/7days/scripts/shutdown
+ExecStop=/home/steam/7days/scripts/shutdown
 ExecStop=/bin/sleep 60
 
 TimeoutStopSec=180
