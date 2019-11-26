@@ -1,0 +1,26 @@
+Key,Source,Context,Changes,English
+ironDoorBlockVariantHelper,blocks,Block,New,Iron Doors
+lightsVariantHelper,blocks,Block,New,Powered Lights
+wallLight01_player,blocks,Block,New,Wall Light
+porchLight01_player,blocks,Block,New,Porch Light
+porchLight04_player,blocks,Block,New,Porch Light
+porchLight04Brass_player,blocks,Block,New,Porch Light
+ceilingLight02_player,blocks,Block,New,Ceiling Light
+ceilingLight02Brass_player,blocks,Block,New,Ceiling Light
+ceilingLight04_player,blocks,Block,New,Ceiling Light
+ceilingLight05_player,blocks,Block,New,Ceiling Light
+ceilingLight05Brass_player,blocks,Block,New,Ceiling Light
+streetLight01_player,blocks,Block,New,Street Light
+streetLightClassic_player,blocks,Block,New,Street Light
+industrialLight02Red_player,blocks,Block,New,Industrial Light
+sconce1Light_player,blocks,Block,New,Sconce
+chandelierLight_player,blocks,Block,New,Chandelier
+ceilingFanLight_player,blocks,Block,New,Ceiling Fan
+endTableLamp_player,blocks,Block,New,Table Lamp
+deskLampLight_player,blocks,Block,New,Desk Lamp
+tableLampLight_player,blocks,Block,New,Table Lamp
+xRayDisplayLight1_player,blocks,Block,New,X-Ray
+xRayDisplayLight2_player,blocks,Block,New,X-Ray
+roadBarricadeLight_player,blocks,Block,New,Road Barricade
+signShopOpen_player,blocks,Block,New,Open Sign
+signExitLight_player,blocks,Block,New,Exit Sign

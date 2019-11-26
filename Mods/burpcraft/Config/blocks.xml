@@ -11,5 +11,284 @@
             <property name="PlaceAltBlockValue" value="ironDoor1_v1,commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1" />
             <property name="Group" value="Building,advBuilding" />
         </block>
+
+        <!-- <property name="ActivationDistance" value="6" /> -->
+        <block name="wallLight01_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="wallLight01" />
+            <property name="Extends" value="wallLight01" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+            <property name="HandleFace" value="South" />
+        </block>
+
+        <block name="porchLight01_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="porchLight01" />
+            <property name="Extends" value="porchLight01" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="porchLight04_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="porchLight04" />
+            <property name="Extends" value="porchLight04" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="porchLight04Brass_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="porchLight04Brass" />
+            <property name="Extends" value="porchLight04Brass" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="ceilingLight02_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="ceilingLight02" />
+            <property name="Extends" value="ceilingLight02" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+            <property name="HandleFace" value="Top" />
+        </block>
+
+        <block name="ceilingLight02Brass_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="ceilingLight02Brass" />
+            <property name="Extends" value="ceilingLight02Brass" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+            <property name="HandleFace" value="Top" />
+        </block>
+
+        <block name="ceilingLight04_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="ceilingLight04" />
+            <property name="Extends" value="ceilingLight04" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+            <property name="HandleFace" value="Top" />
+        </block>
+
+        <block name="ceilingLight05_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="ceilingLight05" />
+            <property name="Extends" value="ceilingLight05" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+            <property name="HandleFace" value="Top" />
+        </block>
+
+        <block name="ceilingLight05Brass_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="ceilingLight05Brass" />
+            <property name="Extends" value="ceilingLight05Brass" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+            <property name="HandleFace" value="Top" />
+        </block>
+
+        <block name="streetLight01_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="streetLight01" />
+            <property name="Extends" value="streetLight01" param1="HandleFace" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="streetLightClassic_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="streetLightClassic" />
+            <property name="Extends" value="streetLightClassic" param1="HandleFace" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="industrialLight02Red_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="industrialLight02Red" />
+            <property name="Extends" value="industrialLight02Red" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="sconce1Light_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="sconce1Light" />
+            <property name="Extends" value="sconce1Light" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="chandelierLight_player">
+            <property name="Extends" value="chandelierLight" />
+            <property name="Model" value="Entities/Electrical/chandelierPrefab" />
+            <property name="DisplayType" value="blockMulti" />
+            <property name="MultiBlockDim" value="2,3,2" />
+            <property name="ActivationDistance" value="6" />
+            <property name="StabilitySupport" value="true" />
+            <property name="Path" value="solid" />
+            <property name="Group" value="Science,Decor/Miscellaneous" />
+            <property name="FilterTags" value="fdecor,felectrical,fother,ffurniture" />
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="chandelierLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="ceilingFanLight_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="ceilingFanLight" />
+            <property name="Extends" value="ceilingFanLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="endTableLamp_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="endTableLamp" />
+            <property name="Extends" value="endTableLamp" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="deskLampLight_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="deskLampLight" />
+            <property name="Extends" value="deskLampLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="tableLampLight_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="tableLampLight" />
+            <property name="Extends" value="tableLampLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="xRayDisplayLight1_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="xRayDisplayLight1" />
+            <property name="Extends" value="xRayDisplayLight1" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="xRayDisplayLight2_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="xRayDisplayLight2" />
+            <property name="Extends" value="xRayDisplayLight2" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="roadBarricadeLight_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="roadBarricadeLight" />
+            <property name="Extends" value="roadBarricadeLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="signShopOpen_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="signShopOpenSwitch" />
+            <property name="Extends" value="signShopOpen" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="signExitLight_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="signExitLight" />
+            <property name="Extends" value="signExitLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+
+        <block name="lightsVariantHelper">
+            <property name="Extends" value="porchLight01" />
+            <property name="CustomIcon" value="porchLight01" />
+            <property name="CreativeMode" value="Player" />
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
+            <property name="ItemTypeIcon" value="all_blocks" />
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="porchLight01_player,porchLight04_player,porchLight04Brass_player,ceilingLight01_player,ceilingLight02_player,ceilingLight02Brass_player,ceilingLight04_player,ceilingLight05_player,ceilingLight05Brass_player,ceilingLight07_player,wallLight01_player,streetLight01_player,streetLightClassic_player,industrialLight01_player,sconce1Light_player,industrialLight02_player,industrialLight02Red_player,chandelierLight_player,ceilingFanLight_player,endTableLamp_player,deskLampLight_player,tableLampLight_player,xRayDisplayLight1_player,xRayDisplayLight2_player,roadBarricadeLight_player,signShopOpen_player,signExitLight_player" />
+            <property name="Group" value="Building,advBuilding" />
+        </block>
     </append>
 </burpcraft>
