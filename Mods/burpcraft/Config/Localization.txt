@@ -1,5 +1,6 @@
 Key,Source,Context,Changes,English
 ironDoorBlockVariantHelper,blocks,Block,New,Iron Doors
+woodDoorBlockVariantHelper,blocks,Block,New,Wood Doors
 lightsVariantHelper,blocks,Block,New,Powered Lights
 wallLight01_player,blocks,Block,New,Wall Light
 porchLight01_player,blocks,Block,New,Porch Light
@@ -24,3 +25,9 @@ xRayDisplayLight2_player,blocks,Block,New,X-Ray
 roadBarricadeLight_player,blocks,Block,New,Road Barricade
 signShopOpen_player,blocks,Block,New,Open Sign
 signExitLight_player,blocks,Block,New,Exit Sign
+technologyBlockVariantHelper,blocks,Block,New,Technology Decorations
+kitchenBlockVariantHelper,blocks,Block,New,Kitchen Decorations
+genericBlockVariantHelper,blocks,Block,New,Decorations
+constructionBlockVariantHelper,blocks,Block,New,Construction Decorations
+chainLinkBlockVariantHelper,blocks,Block,New,Chainlink Fence
+paintingBlockVariantHelper,blocks,Block,New,Pictures

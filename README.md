@@ -10,14 +10,16 @@ Additions to the game
 
 * Added coal recipe to campfire 2 wood = 1 coal *requires cooking grill*
 * Added A17 barb wire recipe
-* Added new iron door variant block that can place:
-  * Iron Door
-  * Commercial Door 1
-  * Commercial Door 2
-  * Commercial Door 3
-* Added new lights variant block that can place:
-  * Lots of lights....
-
+* Added new iron door variant block (includes door frames)
+* Added new wood door variant block (includes door/window frames)
+* Added new lights variant block
+* Added new technology decoration variant block
+* Added new kitchen decoration variant block
+* Added new construction decoration variant block
+* Added new misc decoration variant block
+* Added new chainlink fence variant block
+* Added new picture variant block
+* Added asphalt recipe in cement mixer
 
 ## Changes
 
