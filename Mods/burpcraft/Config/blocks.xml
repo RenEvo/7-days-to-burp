@@ -57,7 +57,7 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="cntToolBoxClosed,decoPoolTable,cntMedicineCabinetOpen,schoolDesk,decoStationaryBike,decoTreadmill,decoBasketBallHoop,decoSwingSet,decoMetalSlide,decoLargePetCage,decoReptileTerrarium,gurneyBed,hospitalBed,decoBenchPress,decoWeightBar,decoClawFootBathTub,cntBathTubEmpty,cntRollingToolBoxClosed,cntUtilityCartFull,cntJanitorCartFull,cntSuitcase,cntLuggageMediumClosed,cntCupboardCabinetRedTopClosed,cntLaundryBasketVer2Full,schoolDesk,barracksChair,cntWaterCoolerFull,cntWaterCoolerBottle"/>
+            <property name="PlaceAltBlockValue" value="cntToolBoxClosed,decoPoolTable,cntMedicineCabinetOpen,schoolDesk,decoStationaryBike,decoTreadmill,decoBasketBallHoop,decoSwingSet,decoMetalSlide,decoLargePetCage,decoReptileTerrarium,gurneyBed,hospitalBed,decoBenchPress,decoWeightBar,decoClawFootBathTub,cntBathTubEmpty,cntRollingToolBoxClosed,cntUtilityCartFull,cntJanitorCartFull,cntSuitcase,cntLuggageMediumClosed,cntLaundryBasketVer2Full,schoolDesk,barracksChair,cntWaterCoolerFull,cntWaterCoolerBottle"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
 
