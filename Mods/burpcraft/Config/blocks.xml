@@ -89,7 +89,7 @@
             <property name="CreativeMode" value="Player" />
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
             <property name="ItemTypeIcon" value="all_blocks" />
-            <property name="SelectAlternatives" value="true" />
+            <property name="SelectAlternates" value="true" />
             <property name="PlaceAltBlockValue" value="chainLink,chainLinkFenceBottomPole,chainLinkFenceTop,chainLinkFenceTopPole,chainLinkPole,chainLinkCornerTop,chainLinkCornerBottom,chainLinkFenceTopPole2" />
             <property name="Group" value="Decor/Miscellaneous" />
         </block>
