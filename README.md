@@ -15,6 +15,9 @@ Additions to the game
   * Commercial Door 1
   * Commercial Door 2
   * Commercial Door 3
+* Added new lights variant block that can place:
+  * Lots of lights....
+
 
 ## Changes
 

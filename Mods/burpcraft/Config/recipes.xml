@@ -17,7 +17,8 @@
 			<ingredient name="resourceForgedIron" count="10" />
 		</recipe>
 
-		<recipe name="lightsVariantHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+		<!-- not currently gated by perks, but easier to craft with better skills -->
+		<recipe name="lightsVariantHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
 			<ingredient name="resourceForgedIron" count="4" />
 			<ingredient name="resourceElectricParts" count="4" />
 			<effect_group>
