@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <burpcraft>
+    <!-- reduce power on these - people use switches instead of relays and stick switches needing power.... -->
+    <set xpath="/blocks/block[@name='electricwirerelay']/property[@name='RequiredPower']/@value">0</set>
+    <set xpath="/blocks/block[@name='tripwirepost']/property[@name='RequiredPower']/@value">0</set>
+
+
     <append xpath="/blocks">
         <block name="ironDoorBlockVariantHelper">
             <property name="Extends" value="ironDoor1_v1" />

@@ -41,6 +41,11 @@ Changes to the game
 * Increased feathers gathered from nests
 * Increased chance to find an egg in a nest
 
+### Blocks
+
+* Relays no longer require power
+* Trip Wires no longer require power
+
 ## Removed
 
 ## Server Settings
