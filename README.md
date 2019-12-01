@@ -48,6 +48,12 @@ Changes to the game
 * Relays no longer require power
 * Trip Wires no longer require power
 
+### Tools
+
+* Increased the block damage of the Auger by roughly 5x
+* Increased the range of the Auger by 1.5 blocks
+* Increased the variance of tiers to Auger to make a lvl 6 worth getting over a lvl 5, etc...
+
 ### Spawning
 
 * Increased the sizes of wandering hordes
