@@ -51,6 +51,7 @@ Changes to the game
 ### Spawning
 
 * Increased the sizes of wandering hordes
+* Increased the spawn rates of all zombies, especially in city, forest, and desert.
 
 ## Removed
 
