@@ -114,4 +114,7 @@
     <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='BlockDamage' and @tier='2,6']/@value">.1,.75</set><!-- .1,.5 default -->
     <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='MaxRange' and @operation='base_set']/@value">3.85</set><!-- 2.35 default -->
     
+    <!-- no more go-go-gadget zombie arms -->
+    <set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@value='1.65']/@value">1.4</set>
+
 </burpcraft>

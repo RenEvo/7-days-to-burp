@@ -59,6 +59,10 @@ Changes to the game
 * Increased the sizes of wandering hordes
 * Increased the spawn rates of all zombies, especially in cities, wasteland, forests, and desert.
 
+### Melee Combat
+
+* Decreased the zombie melee range
+
 ## Removed
 
 ## Server Settings
