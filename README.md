@@ -48,6 +48,10 @@ Changes to the game
 * Relays no longer require power
 * Trip Wires no longer require power
 
+### Spawning
+
+* Increased the sizes of wandering hordes
+
 ## Removed
 
 ## Server Settings
