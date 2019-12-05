@@ -1,33 +1,33 @@
-Key,Source,Context,Changes,English
-ironDoorBlockVariantHelper,blocks,Block,New,Iron Doors
-woodDoorBlockVariantHelper,blocks,Block,New,Wood Doors
-lightsVariantHelper,blocks,Block,New,Powered Lights
-wallLight01_player,blocks,Block,New,Wall Light
-porchLight01_player,blocks,Block,New,Porch Light
-porchLight04_player,blocks,Block,New,Porch Light
-porchLight04Brass_player,blocks,Block,New,Porch Light
-ceilingLight02_player,blocks,Block,New,Ceiling Light
-ceilingLight02Brass_player,blocks,Block,New,Ceiling Light
-ceilingLight04_player,blocks,Block,New,Ceiling Light
-ceilingLight05_player,blocks,Block,New,Ceiling Light
-ceilingLight05Brass_player,blocks,Block,New,Ceiling Light
-streetLight01_player,blocks,Block,New,Street Light
-streetLightClassic_player,blocks,Block,New,Street Light
-industrialLight02Red_player,blocks,Block,New,Industrial Light
-sconce1Light_player,blocks,Block,New,Sconce
-chandelierLight_player,blocks,Block,New,Chandelier
-ceilingFanLight_player,blocks,Block,New,Ceiling Fan
-endTableLamp_player,blocks,Block,New,Table Lamp
-deskLampLight_player,blocks,Block,New,Desk Lamp
-tableLampLight_player,blocks,Block,New,Table Lamp
-xRayDisplayLight1_player,blocks,Block,New,X-Ray
-xRayDisplayLight2_player,blocks,Block,New,X-Ray
-roadBarricadeLight_player,blocks,Block,New,Road Barricade
-signShopOpen_player,blocks,Block,New,Open Sign
-signExitLight_player,blocks,Block,New,Exit Sign
-technologyBlockVariantHelper,blocks,Block,New,Technology Decorations
-kitchenBlockVariantHelper,blocks,Block,New,Kitchen Decorations
-genericBlockVariantHelper,blocks,Block,New,Decorations
-constructionBlockVariantHelper,blocks,Block,New,Construction Decorations
-chainLinkBlockVariantHelper,blocks,Block,New,Chainlink Fence
-paintingBlockVariantHelper,blocks,Block,New,Pictures
+Key,UsedInMainMenu,Source,Context,Changes,English
+ironDoorBlockVariantHelper,,blocks,Block,newKey,Iron Doors
+woodDoorBlockVariantHelper,,blocks,Block,newKey,Wood Doors
+lightsVariantHelper,,blocks,Block,newKey,Powered Lights
+wallLight01_player,,blocks,Block,newKey,Wall Light
+porchLight01_player,,blocks,Block,newKey,Porch Light
+porchLight04_player,,blocks,Block,newKey,Porch Light
+porchLight04Brass_player,,blocks,Block,newKey,Porch Light
+ceilingLight02_player,,blocks,Block,newKey,Ceiling Light
+ceilingLight02Brass_player,,blocks,Block,newKey,Ceiling Light
+ceilingLight04_player,,blocks,Block,newKey,Ceiling Light
+ceilingLight05_player,,blocks,Block,newKey,Ceiling Light
+ceilingLight05Brass_player,,blocks,Block,newKey,Ceiling Light
+streetLight01_player,,blocks,Block,newKey,Street Light
+streetLightClassic_player,,blocks,Block,newKey,Street Light
+industrialLight02Red_player,,blocks,Block,newKey,Industrial Light
+sconce1Light_player,,blocks,Block,newKey,Sconce
+chandelierLight_player,,blocks,Block,newKey,Chandelier
+ceilingFanLight_player,,blocks,Block,newKey,Ceiling Fan
+endTableLamp_player,,blocks,Block,newKey,Table Lamp
+deskLampLight_player,,blocks,Block,newKey,Desk Lamp
+tableLampLight_player,,blocks,Block,newKey,Table Lamp
+xRayDisplayLight1_player,,blocks,Block,newKey,X-Ray
+xRayDisplayLight2_player,,blocks,Block,newKey,X-Ray
+roadBarricadeLight_player,,blocks,Block,newKey,Road Barricade
+signShopOpen_player,,blocks,Block,newKey,Open Sign
+signExitLight_player,,blocks,Block,newKey,Exit Sign
+technologyBlockVariantHelper,,blocks,Block,newKey,Technology Decorations
+kitchenBlockVariantHelper,,blocks,Block,newKey,Kitchen Decorations
+genericBlockVariantHelper,,blocks,Block,newKey,Decorations
+constructionBlockVariantHelper,,blocks,Block,newKey,Construction Decorations
+chainLinkBlockVariantHelper,,blocks,Block,newKey,Chainlink Fence
+paintingBlockVariantHelper,,blocks,Block,newKey,Pictures
