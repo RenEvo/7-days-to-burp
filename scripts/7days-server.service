@@ -9,7 +9,7 @@ Group=steam
 
 Environment="LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/steam/7days/7DaysToDieServer_Data/Plugins/x86_64"
 ExecStartPre=-/usr/bin/git pull
-ExecStart=/home/steam/7days/7DaysToDieServer.x86_64 -logfile /dev/stdout -quit -batchmode -nographics -dedicated -configfile=/home/steam/7days/burpcraft-linux.xml
+ExecStart=/home/steam/7days/7DaysToDieServer.x86_64 -logfile /home/steam/7days/GameData/log.txt -quit -batchmode -nographics -dedicated -configfile=/home/steam/7days/burpcraft-linux.xml
 
 ExecReload=/bin/kill -HUP $MAINPID
 ExecStop=/home/steam/7days/scripts/shutdown
