@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/home/steam/steamcmd/steamcmd.sh +login anonymous +force_install_dir /home/steam/7days +app_update 294420 -beta latest_experimental validate +quit

@@ -1,5 +1,4 @@
 <burpcraft>
-
 	<!-- City -->
 	<!-- Removal -->
 	<remove xpath="/spawning/biome[@name='city']/spawn" />

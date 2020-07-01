@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	 This file holds the settings for who is banned, whitelisted,
-   admins and server command permissions.
-   Steam ID can be found using http://steamid.co/
+	  This file holds the settings for who is banned, whitelisted,
+   admins and server command permissions. The admin and whitelist sections can contain
+   both individual Steam users as well as Steam groups.
 
    STEAM ID INSTRUCTIONS:
    ===============================================================
@@ -14,12 +14,24 @@
    Also you may add/remove admins, mods, whitelist, blacklist using in game commands.
    You will want the STEAM64ID. example: 76561198021925107
 
-	 PERMISSION LEVEL INSTRUCTIONS:
+   STEAM GROUP ID INSTRUCTIONS:
+   ===============================================================
+   You can find the SteamID64 of any group by taking its address and adding
+     /memberslistxml/?xml=1
+   to the end. You will get the XML information of the group which should have an entry
+   memberList->groupID64.
+   Example: The 'Steam Universe' group has the address
+     https://steamcommunity.com/groups/steamuniverse
+   So you point your browser to
+     https://steamcommunity.com/groups/steamuniverse/memberslistxml/?xml=1
+   And see that the groupID64 is 103582791434672565.
+
+	  PERMISSION LEVEL INSTRUCTIONS:
    ===============================================================
    permission level : 0-1000, a user may run any command equal to or above their permission level.
    Users not given a permission level in this file will have a default permission level of 1000!
 
-	 COMMAND PERMISSIONS INSTRUCTIONS:
+	  COMMAND PERMISSIONS INSTRUCTIONS:
    ===============================================================
    cmd : This is the command name, any command not in this list will not be usable by anyone but the server.
    permission level : 0-1000, a user may run any command equal to or above their permission level.
@@ -29,9 +41,11 @@
 -->
 
 <adminTools>
+    <!-- Name is optional for display purposes only -->
     <admins>
-        <!-- <admin steamID="76561198021925107" permission_level="0" /> -->
-        <admin steamID="76561197969618392" permission_level="0" />
+        <!-- <user steamID="76561198021925107" name="Hint on who this user is" permission_level="0" /> -->
+        <!-- <group steamID="103582791434672565" name="Steam Universe" permission_level_default="1000" permission_level_mod="0" /> -->
+        <user steamID="76561197969618392"  permission_level="0" />
     </admins>
 
     <permissions>
@@ -56,21 +70,26 @@
     <!-- ONLY PUT ITEMS IN WHITELIST IF YOU WANT WHITELIST ONLY ENABLED!!! -->
     <!-- If there are any items in the whitelist, the whitelist only mode is enabled -->
     <!-- Nobody can join that ISN'T in the whitelist or admins once whitelist only mode is enabled -->
+    <!-- Name is optional for display purposes only -->
 
     <whitelist>
-        <!-- <whitelisted steamID="" /> -->
-        <whitelisted steamID="76561197969618392" />
-        <whitelisted steamID="76561198165130563" />
-        <whitelisted steamID="76561198126980759" />
-        <whitelisted steamID="76561197971008541" />
-        <whitelisted steamID="76561197970820129" />
-        <whitelisted steamID="76561198067189139" />
-        <whitelisted steamID="76561198069242633" />
-        <whitelisted steamID="76561198440484535" />
-        <whitelisted steamID="76561198074646046" />
-        <whitelisted steamID="76561197968569725" />
+        <!-- <user steamID="" name="" /> -->
+        <!-- <group steamID="" name="" /> -->
+        <user steamID="76561197969618392"  />
+        <user steamID="76561198165130563"  />
+        <user steamID="76561198126980759"  />
+        <user steamID="76561197971008541"  />
+        <user steamID="76561197970820129"  />
+        <user steamID="76561198067189139"  />
+        <user steamID="76561198069242633"  />
+        <user steamID="76561198440484535"  />
+        <user steamID="76561198074646046"  />
+        <user steamID="76561197968569725"  />
+        <user steamID="76561197972274364"  />
+        <user steamID="76561198070203187"  />
     </whitelist>
 
+    <!-- Name is optional for display purposes only -->
     <blacklist>
         <!-- <blacklisted steamID="" unbandate="" /> -->
     </blacklist>

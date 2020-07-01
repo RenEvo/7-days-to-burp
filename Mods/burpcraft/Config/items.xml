@@ -60,27 +60,21 @@
     <set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">50</set>
 
     <!-- Ammo -->
-    <set xpath="/items/item[@name='ammoRocketFrag']/property[@name='Stacknumber']/@value">50</set>
     <set xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']/@value">50</set>
 
     <set xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']/@value">500</set>
-    <set xpath="/items/item[@name='ammo44MagnumBulletBall']/property[@name='Stacknumber']/@value">500</set>
     <set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">500</set>
 
     <set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">500</set>
-    <set xpath="/items/item[@name='ammoArrowIron']/property[@name='Stacknumber']/@value">500</set>
-    <set xpath="/items/item[@name='ammoArrowSteelAP']/property[@name='Stacknumber']/@value">500</set>
 
     <set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber']/@value">500</set>
     <set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber']/@value">500</set>
-    <set xpath="/items/item[@name='ammoCrossbowBoltSteelAP']/property[@name='Stacknumber']/@value">500</set>
 
     <set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">500</set>
     <set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='Stacknumber']/@value">500</set>
 
     <!-- all resource bundles are based on this one -->
     <set xpath="/items/item[@name='ammoBundle9mmBulletBall']/property[@name='Stacknumber']/@value">25</set>
-
 
     <!-- Resources -->
     <set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">20</set>
@@ -110,11 +104,11 @@
     <set xpath="/items/item[@name='toolBeaker']/property[@name='Stacknumber']/@value">20</set>
 
     <!-- Auger Tweaks (more damage, more spread on tiers, and longer reach) -->
-    <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">100</set><!-- 20.7 default -->
-    <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='BlockDamage' and @tier='2,6']/@value">.1,.75</set><!-- .1,.5 default -->
-    <set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='meleeToolAuger']/passive_effect[@name='MaxRange' and @operation='base_set']/@value">3.85</set><!-- 2.35 default -->
+    <set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">100</set><!-- 20.7 default -->
+    <set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='BlockDamage' and @tier='2,6']/@value">.1,.75</set><!-- .1,.5 default -->
+    <set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='MaxRange' and @operation='base_set']/@value">3.85</set><!-- 2.35 default -->
     
     <!-- no more go-go-gadget zombie arms -->
-    <set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@value='1.65']/@value">1.4</set>
+    <set xpath="/items/item[@name='meleeHandMaster']/property[@class='Action0']/property[@value='1.65']/@value">1.25</set>
 
 </burpcraft>

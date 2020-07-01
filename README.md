@@ -8,18 +8,19 @@ Additions to the game
 
 ### Crafting
 
+Some are disabled temporarly in A19
+
 * Added coal recipe to campfire 2 wood = 1 coal *requires cooking grill*
 * Added A17 barb wire recipe
-* Added new iron door variant block (includes door frames)
-* Added new wood door variant block (includes door/window frames)
-* Added new lights variant block
-* Added new technology decoration variant block
-* Added new kitchen decoration variant block
-* Added new construction decoration variant block
-* Added new misc decoration variant block
-* Added new chainlink fence variant block
-* Added new picture variant block
-* Added asphalt recipe in cement mixer
+* ~~Added new iron door variant block (includes door frames)~~
+* ~~Added new wood door variant block (includes door/window frames)~~
+* ~~Added new lights variant block~~
+* ~~Added new technology decoration variant block~~
+* ~~Added new kitchen decoration variant block~~
+* ~~Added new construction decoration variant block~~
+* ~~Added new misc decoration variant block~~
+* ~~Added new chainlink fence variant block~~
+* ~~Added new picture variant block~~
 
 ## Changes
 
@@ -56,8 +57,10 @@ Changes to the game
 
 ### Spawning
 
-* Increased the sizes of wandering hordes
-* Increased the spawn rates of all zombies, especially in cities, wasteland, forests, and desert.
+Disabled for now in A19
+
+* ~~Increased the sizes of wandering hordes~~
+* ~~Increased the spawn rates of all zombies, especially in cities, wasteland, forests, and desert.~~
 
 ### Melee Combat
 
@@ -71,9 +74,10 @@ The burpcraft server settings in the [./burpcraft.xml](./burpcraft.xml)
 
 ## Generated World
 
+Currently using PREGEN01 for A19 initial fun times.
+
 ## Additional Server Mods
 
 * [Allocs Server Fixes](https://7dtd.illy.bz/wiki/Server%20fixes)
-* [Grasscutter](https://www.nexusmods.com/7daystodie/mods/448)
 * [JunctionBox](https://www.nexusmods.com/7daystodie/mods/199)
-* [SurvivalHUD](https://www.nexusmods.com/7daystodie/mods/288)
+
