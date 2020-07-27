@@ -75,21 +75,22 @@
     <whitelist>
         <!-- <user steamID="" name="" /> -->
         <!-- <group steamID="" name="" /> -->
-        <user steamID="76561197969618392"  />
-        <user steamID="76561198165130563"  />
-        <user steamID="76561198126980759"  />
-        <user steamID="76561197971008541"  />
-        <user steamID="76561197970820129"  />
-        <user steamID="76561198067189139"  />
-        <user steamID="76561198069242633"  />
-        <user steamID="76561198440484535"  />
-        <user steamID="76561198074646046"  />
-        <user steamID="76561197968569725"  />
-        <user steamID="76561197972274364"  />
-        <user steamID="76561198070203187"  />
-        <user steamID="76561198068378636"  />
-        <user steamID="76561198067220232"  />
+        <user steamID="76561197969618392" />
+        <user steamID="76561198165130563" />
+        <user steamID="76561198126980759" />
+        <user steamID="76561197971008541" />
+        <user steamID="76561197970820129" />
+        <user steamID="76561198067189139" />
+        <user steamID="76561198069242633" />
+        <user steamID="76561198440484535" />
+        <user steamID="76561198074646046" />
+        <user steamID="76561197968569725" />
+        <user steamID="76561197972274364" />
+        <user steamID="76561198070203187" />
+        <user steamID="76561198068378636" />
+        <user steamID="76561198067220232" />
         <user steamID="76561197961074073" />
+        <user steamID="76561198052121335" />
     </whitelist>
 
     <!-- Name is optional for display purposes only -->
