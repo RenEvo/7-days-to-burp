@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="burpcraft_blocks" />
+		<Description value="Burpcraft Additional Blocks" />
+		<Author value="RenEvo" />
+		<Version value="A19" />
+		<Website value="https://github.com/renevo/7-days-to-burp" />
+	</ModInfo>
+</xml>
