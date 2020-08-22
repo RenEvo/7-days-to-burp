@@ -31,3 +31,10 @@ genericBlockVariantHelper,,blocks,Block,newKey,Decorations
 constructionBlockVariantHelper,,blocks,Block,newKey,Construction Decorations
 chainLinkBlockVariantHelper,,blocks,Block,newKey,Chainlink Fence
 paintingBlockVariantHelper,,blocks,Block,newKey,Pictures
+roomDecorBlockVariantHelper,,blocks,Block,newKey,Room Decorations
+brickBlockVariantHelper,,blocks,Block,newKey,Brick Blocks
+alternateWoodBlockVariantHelper,,blocks,Block,newKey,Alternate Wood Blocks
+leatherFurnitureBlockVariantHelper,,blocks,Block,newKey,Leather Furniture
+woodWindowBlockVariantHelper,,blocks,Block,newKey,Wood Windows
+bulletproofWindowBlockVariantHelper,,blocks,Block,newKey,Bullet Proof Windows
+alternateConcreteBlockVariantHelper,,blocks,Block,newKey,Alternate Concrete Blocks

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<burpcraft>
+    <!-- reduce power on these - people use switches instead of relays and stick switches needing power.... -->
+    <set xpath="/blocks/block[@name='electricwirerelay']/property[@name='RequiredPower']/@value">0</set>
+    <set xpath="/blocks/block[@name='tripwirepost']/property[@name='RequiredPower']/@value">0</set>
+</burpcraft>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<burpcraft>
-    <!-- reduce power on these - people use switches instead of relays and stick switches needing power.... -->
-    <set xpath="/blocks/block[@name='electricwirerelay']/property[@name='RequiredPower']/@value">0</set>
-    <set xpath="/blocks/block[@name='tripwirepost']/property[@name='RequiredPower']/@value">0</set>
-
-    <!--
+<burpcraft_blocks>
     <append xpath="/blocks">
         <block name="ironDoorBlockVariantHelper">
             <property name="Extends" value="ironDoor1_v1" />
@@ -13,10 +8,9 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
             <property name="ItemTypeIcon" value="all_blocks" />
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="ironDoor1_v1,commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1,doorFrameMetal1,doorFrameMetalBoarded1,doorFrameMetal2,doorFrameMetalBoarded2" />
+            <property name="PlaceAltBlockValue" value="ironDoor1_v1,commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1,doorFrameMetal1,doorFrameMetalBoarded1,doorFrameMetal2,doorFrameMetalBoarded2,jailDoorStatic,jailDoorStaticCentered,jailBars,doorTrimTop,doorTrim2m,doorTrimHalfm,doorTrim1m" />
             <property name="Group" value="Building,advBuilding" />
         </block>
-
         <block name="woodDoorBlockVariantHelper">
             <property name="Extends" value="secureDoorWooden" />
             <property name="CustomIcon" value="secureDoorWooden" />
@@ -27,7 +21,6 @@
             <property name="PlaceAltBlockValue" value="secureDoorWooden,houseFrontDoor1_v1,houseFrontDoor2_v1,doorTrimTop,doorTrim2m,doorFrameWhite1,doorFrameWhiteBoarded1,doorFrameWhite2,doorFrameWhiteBoarded2,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimTop,woodWindowTrimSides,woodWindowTrimTopFancy" />
             <property name="Group" value="Building,advBuilding" />
         </block>
-
         <block name="technologyBlockVariantHelper">
             <property name="Extends" value="controlPanelTop05"/>
             <property name="CustomIcon" value="controlPanelTop05"/>
@@ -35,10 +28,9 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="controlPanelTop05,controlPanelBase01,controlPanelBase02,controlPanelBase03,controlPanelBase04,controlPanelBase05,controlPanelBase06,controlPanelTop01,controlPanelTop02,controlPanelTop03,controlPanelTop04,controlPanelTop06,controlPanelTop07,controlPanelCorner,controlPanelBase07,controlPanelBase08,airConditioner,airConditionVentFan,airConditionVentFanDouble,satelliteDish,satelliteDishSmall"/>
+            <property name="PlaceAltBlockValue" value="controlPanelTop05,controlPanelBase01,controlPanelBase02,controlPanelBase03,controlPanelBase04,controlPanelBase05,controlPanelBase06,controlPanelTop01,controlPanelTop02,controlPanelTop03,controlPanelTop04,controlPanelTop06,controlPanelTop07,controlPanelCorner,controlPanelBase07,controlPanelBase08,airConditioner,airConditionVentFan,airConditionVentFanDouble,satelliteDish,satelliteDishSmall,cntStoreElectronicsBookShelfSpeaker"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
-
         <block name="kitchenBlockVariantHelper">
             <property name="Extends" value="utilitySink"/>
             <property name="CustomIcon" value="utilitySink"/>
@@ -46,10 +38,9 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="utilitySink,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,cntIceMachine,wallHungSink,cntWashingMachine,cntWasherClosed,cntDryerClosed,cntLaundryBasketVer1Empty,cntTrashCompactor,cntMedicineCabinetOpen,cntGasGrillOpen,cntCharcoalGrillOpen,cntWoodBurningStove,cntMicrowaveOvenVer1Open,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial,cntTiltTruckEmpty,cntSodaFountain,cntWallOven,cntGraniteSink"/>
+            <property name="PlaceAltBlockValue" value="utilitySink,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,cntIceMachine,wallHungSink,cntWashingMachine,cntWasherClosed,cntDryerClosed,cntLaundryBasketVer1Empty,cntTrashCompactor,cntMedicineCabinetOpen,cntGasGrillOpen,cntCharcoalGrillOpen,cntWoodBurningStove,cntMicrowaveOvenVer1Open,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial,cntTiltTruckEmpty,cntSodaFountain,cntWallOven,cntGraniteSink,cntBeerCooler,cntCharcoalGrillClosed,cntIceMachine,metalTablePillar0,decoTableRound"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
-
         <block name="genericBlockVariantHelper">
             <property name="Extends" value="cntToolBoxClosed"/>
             <property name="CustomIcon" value="cntToolBoxClosed"/>
@@ -57,10 +48,9 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="cntToolBoxClosed,decoPoolTable,cntMedicineCabinetOpen,schoolDesk,decoStationaryBike,decoTreadmill,decoBasketBallHoop,decoSwingSet,decoMetalSlide,decoLargePetCage,decoReptileTerrarium,gurneyBed,hospitalBed,decoBenchPress,decoWeightBar,decoClawFootBathTub,cntBathTubEmpty,cntRollingToolBoxClosed,cntUtilityCartFull,cntJanitorCartFull,cntSuitcase,cntLuggageMediumClosed,cntLaundryBasketVer2Full,schoolDesk,barracksChair,cntWaterCoolerFull,cntWaterCoolerBottle"/>
+            <property name="PlaceAltBlockValue" value="cntToolBoxClosed,decoPoolTable,cntMedicineCabinetOpen,schoolDesk,decoStationaryBike,decoTreadmill,decoBasketBallHoop,decoSwingSet,decoMetalSlide,decoLargePetCage,decoReptileTerrarium,gurneyBed,hospitalBed,decoBenchPress,decoWeightBar,decoClawFootBathTub,cntBathTubEmpty,cntRollingToolBoxClosed,cntUtilityCartFull,cntJanitorCartFull,cntSuitcase,cntLuggageMediumClosed,cntLaundryBasketVer2Full,schoolDesk,barracksChair,cntWaterCoolerFull,cntWaterCoolerBottle,cntClothesRackRectangleEmpty2,birdBathPlanter,modularFireWoodStackA,modularFireWoodStackB,modularFireWoodStackC,decoCarTirePile,decoCarTireStack,decoCarWheelFlat,cntCoffin"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
-
         <block name="paintingBlockVariantHelper">
             <property name="Extends" value="paintingBen"/>
             <property name="CustomIcon" value="paintingBen"/>
@@ -68,10 +58,19 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen"/>
+            <property name="PlaceAltBlockValue" value="paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,signPosterMovie2159,signPosterMovieLoneWolf,signPosterMovieMammasJustice,signPosterMovieSexualTension,signBulletinBoard01,signBulletinBoard02,signRoadPrivate,signRoadStop,signRoadSpeed25,signRoadSpeed35,signRoadSpeed45,signRoadSpeed55,signRoadSpeed65"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
-
+        <block name="roomDecorBlockVariantHelper">
+            <property name="Extends" value="bunkBedMade"/>
+            <property name="CustomIcon" value="bunkBedMade"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="bunkBedMade,bunkBedMessy,bunkBedMattress,cntMedicineCabinetClosed,cntMedicineCabinetFaucetClosed,cntMedicineCabinetFaucetOpen,cntMedicineCabinetOpen,officeChair01,cntFileCabinetShortClosed,cntFileCabinetShortOpen,cntFileCabinetTallClosed,cntFileCabinetTallOpen,decoMannequinMale,decoMannequinFemale,decoLargePetCage,cntClothesShelfHalfEmpty,cntClothesShelfStackEmpty,wallClock,Mirror,radiatorHouse01,cntModularClosetOpen,cntModularClosetEnd,flagPoleAmerican,commercialBlindsTop,commercialBlindsBottom"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+		</block>
         <block name="constructionBlockVariantHelper">
             <property name="Extends" value="heatVent"/>
             <property name="CustomIcon" value="heatVent"/>
@@ -79,21 +78,69 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="heatVent,heatVentIndustrial,cntGasPump,metalPipeCorner,metalPipeJoint,metalPipeFlange,metalPipeCap,pipeSmall1x1,pipeSmall1x3,pipeSmallCap,pipeSmallJoint,pipeSmallValve,pipeSmallCorner,birdBathPlanter,decoHoistChain,decoHoistSpreader,decoHoistHook,decoHoistMagnet,decoHoistTopMount,decoHandTruck,palletWhiteBagsBase,palletWhiteBagsTile,palletWhiteBagsTop,palletWhiteBagsPartial1,palletWhiteBagsPartial2,palletWhiteBagsLoose,palletBrownBoxesBase,palletBrownBoxesTile,palletBrownBoxesTop,palletBrownBoxesLoose,palletBricksBase,palletBricksTile,palletBricksTop,palletBricksPartial1,palletBricksPartial2,palletBricksLoose,palletBlueTarpBase,palletBlueTarpTile,palletCompressedCardboard,palletEmpty,palletEmptyStack"/>
+            <property name="PlaceAltBlockValue" value="heatVent,heatVentIndustrial,cntGasPump,metalPipeCorner,metalPipeJoint,metalPipeFlange,metalPipeCap,pipeSmall1x1,pipeSmall1x3,pipeSmallCap,pipeSmallJoint,pipeSmallValve,pipeSmallCorner,birdBathPlanter,decoHoistChain,decoHoistSpreader,decoHoistHook,decoHoistMagnet,decoHoistTopMount,decoHandTruck,palletWhiteBagsBase,palletWhiteBagsTile,palletWhiteBagsTop,palletWhiteBagsPartial1,palletWhiteBagsPartial2,palletWhiteBagsLoose,palletBrownBoxesBase,palletBrownBoxesTile,palletBrownBoxesTop,palletBrownBoxesLoose,palletBricksBase,palletBricksTile,palletBricksTop,palletBricksPartial1,palletBricksPartial2,palletBricksLoose,palletBlueTarpBase,palletBlueTarpTile,palletCompressedCardboard,palletEmpty,palletEmptyStack,palletBlueTarpBase,palletBlueTarpTile,palletCompressedCardboard,palletEmpty,palletEmptyStack,chimneyPOI,chimneyBlackPOI"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
-
-        <block name="chainLinkBlockVariantHelper">
-            <property name="Extends" value="chainLink" />
-            <property name="CustomIcon" value="chainLink" />
-            <property name="CreativeMode" value="Player" />
-            <property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
-            <property name="ItemTypeIcon" value="all_blocks" />
+        <block name="brickBlockVariantHelper">
+            <property name="Extends" value="brickArch"/>
+            <property name="CustomIcon" value="brickArch"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="chainLink,chainLinkFenceBottomPole,chainLinkFenceTop,chainLinkFenceTopPole,chainLinkPole,chainLinkCornerTop,chainLinkCornerBottom,chainLinkFenceTopPole2" />
-            <property name="Group" value="Decor/Miscellaneous" />
+            <property name="PlaceAltBlockValue" value="brickArch,palletBricksBase,palletBricksTile,palletBricksTop,palletBricksPartial1,palletBricksPartial2,palletBricksLoose,brickWindowArch3MCNR,brickWindowArch3MCTR,brickWindowArch3MTip,brickWindowArchTop,brickWindowCircle,brickWindowCircleCorner,brickArchCurveBase,brickArchCurveFiller,brickArchCurveMiddle,brickArchCurveTop,brickArchCurveTopMiddle,brickArchCurveTopMiddleTopper,brickArchCurveWall,brickArchCurveWallCap"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
         </block>
-
+		<block name="alternateWoodBlockVariantHelper">
+            <property name="Extends" value="woodCross"/>
+            <property name="CustomIcon" value="woodCross"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="woodCross,woodPoleCornerRound,woodCrossCtr,woodCrossHalf,woodPoleSupportCtr,woodPoleSupport,woodPoleSupport2,woodHalfRampStairs50,woodHalfRampStairs50Filler,woodPoleSCTR,woodWedgeTipHalf1,woodWedgeTipHalf2,woodInclineTipHalf1,woodInclineTipHalf2,woodRampInclineInsideCNRFiller,woodRampInclineHalf1,woodRampInclineHalf2,woodRampInclineFillerHalf1,woodRampInclineFillerHalf2,woodQuarterCNRQuarterPlate,woodGablehalf,woodGablequarterhalf,woodGable1mhalf,woodGable3quarterhalf,woodWindowArch3MCNR,woodWindowArch3MCTR,woodWindowArch3MTip,woodFloorJoist,woodHalfPlate,woodWallStud,solidWoodFramePlateOffset,woodPlateHalfTriangle,woodPlateQuarterTriangle,wood2PlateCorner,wood2PlateCornerHalf,woodPlatePole,woodEighth,woodPillar100,woodHalfCNRInside2,woodWedgeCNRInsideSteepBase,woodWedgeInclineCornerTop,woodCrown,woodCrownInsideCorner,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimTop,woodWindowTrimSides,woodWindowTrimTopFancy,cntBookShelfSingleBottomEmpty,cntBookShelfSingleTopEmpty,cntBookShelfDoubleBottomEmpty,cntBookShelfDoubleTopEmpty,cntBookShelfDoubleTopFull01,cntBookShelfDoubleTopFull02,cntBookShelfSingleBottomFull01,cntBookShelfSingleBottomFull02,woodSawhorse"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
+		<block name="leatherFurnitureBlockVariantHelper">
+            <property name="Extends" value="couchSofa01"/>
+            <property name="CustomIcon" value="couchSofa01"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="sectionalLeatherCouchSofaArm,sectionalLeatherCouchSofaCorner,sectionalLeatherCouchSofaMiddle,chairCouchSofa01,couchSofa01,leatherCouchSofa2,leatherChairCouchSofa2"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
+		<block name="woodWindowBlockVariantHelper">
+            <property name="Extends" value="window03Wood"/>
+            <property name="CustomIcon" value="window03Wood"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="window03Wood,windowStoreCornerFull,windowStoreOneSidedFull,windowStoreTwoSidedFull,windowStoreThreeSidedFull,windowStoreFourSidedFull,window02,window02Frame,windowStoreOneSidedEmpty,windowStoreTwoSidedEmpty,windowStoreTwoSidedCornerEmpty,windowStoreThreeSidedEmpty,windowStoreFourSidedEmpty"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
+		<block name="bulletproofWindowBlockVariantHelper">
+            <property name="Extends" value="glassBulletproofBlock"/>
+            <property name="CustomIcon" value="glassBulletproofBlock"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="windowStoreCornerBulletproof,windowStoreOneSidedBulletproof,windowStoreTwoSidedBulletproof,windowStoreThreeSidedBulletproof,windowStoreFourSidedBulletproof,glassBulletproofBlock,glassBulletproofCTRPlate,glassBulletproofPlate,glassBulletproofPlateCurved,glassBulletproofRamp,glassBulletproofRampSheet,glassOpaqueBulletproofCTRPlate,glassOpaqueBulletproofPlate"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
+		<block name="alternateConcreteBlockVariantHelper">
+            <property name="Extends" value="concreteCTRQuarter"/>
+            <property name="CustomIcon" value="concreteCTRQuarter"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="concreteCTRQuarter,concreteRampTrimQuarter,concreteBlockTrimHalfSplit,concreteBlockTrimHalfSplitDiagonal,concreteBlockTrimHalfSplit4Sided,concreteBlockTrimQuarterEdge,concreteBlockTrimQuarterEdge2Sided,concreteBlockTrimQuarterCornerInside,concreteBlockTrimQuarterCornerInsideTriangle,concreteBlockTrimQuarterCornerOutside,concreteBlockTrimQuarterCornerOutside2Sided,concreteBlockTrimCNRRound,concreteHalfTrimSplit,concreteBarrier1,concreteBarrier2,concreteBarrier3,concreteTubeCenter,concreteTubeCorner,concreteTunnelCenter,concreteTunnelCornerconcretePoleCornerRound"/>
+            <property name="Group" value="Decor/Miscellaneous"/>
+        </block>
          <block name="wallLight01_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="wallLight01" />
@@ -105,7 +152,6 @@
             <property name="TakeDelay" value="5" />
             <property name="HandleFace" value="South" />
         </block>
-
         <block name="porchLight01_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="porchLight01" />
@@ -116,7 +162,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="porchLight04_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="porchLight04" />
@@ -127,7 +172,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="porchLight04Brass_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="porchLight04Brass" />
@@ -138,7 +182,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="ceilingLight02_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="ceilingLight02" />
@@ -150,7 +193,6 @@
             <property name="TakeDelay" value="5" />
             <property name="HandleFace" value="Top" />
         </block>
-
         <block name="ceilingLight02Brass_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="ceilingLight02Brass" />
@@ -162,7 +204,6 @@
             <property name="TakeDelay" value="5" />
             <property name="HandleFace" value="Top" />
         </block>
-
         <block name="ceilingLight04_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="ceilingLight04" />
@@ -174,7 +215,6 @@
             <property name="TakeDelay" value="5" />
             <property name="HandleFace" value="Top" />
         </block>
-
         <block name="ceilingLight05_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="ceilingLight05" />
@@ -186,7 +226,6 @@
             <property name="TakeDelay" value="5" />
             <property name="HandleFace" value="Top" />
         </block>
-
         <block name="ceilingLight05Brass_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="ceilingLight05Brass" />
@@ -198,7 +237,6 @@
             <property name="TakeDelay" value="5" />
             <property name="HandleFace" value="Top" />
         </block>
-
         <block name="streetLight01_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="streetLight01" />
@@ -209,7 +247,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="streetLightClassic_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="streetLightClassic" />
@@ -220,7 +257,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="industrialLight02Red_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="industrialLight02Red" />
@@ -231,7 +267,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="sconce1Light_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="sconce1Light" />
@@ -242,7 +277,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="ceilingFanLight_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="ceilingFanLight" />
@@ -253,7 +287,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="endTableLamp_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="endTableLamp" />
@@ -264,7 +297,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="deskLampLight_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="deskLampLight" />
@@ -275,7 +307,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="tableLampLight_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="tableLampLight" />
@@ -286,7 +317,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="xRayDisplayLight1_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="xRayDisplayLight1" />
@@ -297,7 +327,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="xRayDisplayLight2_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="xRayDisplayLight2" />
@@ -308,7 +337,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="roadBarricadeLight_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="roadBarricadeLight" />
@@ -319,7 +347,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="signShopOpen_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="signShopOpenSwitch" />
@@ -330,7 +357,6 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
         <block name="signExitLight_player">
             <property name="Class" value="PoweredLight" />
             <property name="CustomIcon" value="signExitLight" />
@@ -341,17 +367,75 @@
             <property name="RuntimeSwitch" value="true" />
             <property name="TakeDelay" value="5" />
         </block>
-
-        <block name="lightsVariantHelper">
+         <block name="workLightPOI_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="workLightPOI" />
+            <property name="Extends" value="workLightPOI" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+		 <block name="chandelierLight_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="chandelierLight" />
+            <property name="Extends" value="chandelierLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+		 <block name="recessedLight_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="recessedLight" />
+            <property name="Extends" value="recessedLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+		 <block name="trackLight_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="trackLight" />
+            <property name="Extends" value="trackLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+		 <block name="fluorescentLight_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="fluorescentLight" />
+            <property name="Extends" value="fluorescentLight" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+        <block name="flashlightDecor_player">
+            <property name="Class" value="PoweredLight" />
+            <property name="CustomIcon" value="flashlightDecor" />
+            <property name="Extends" value="flashlightDecor" />
+	        <property name="CreativeMode" value="Player" />
+	        <property name="DescriptionKey" value="lightPlayerGroupDesc" />
+	        <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic" />
+            <property name="RuntimeSwitch" value="true" />
+            <property name="TakeDelay" value="5" />
+        </block>
+		<block name="lightsVariantHelper">
             <property name="Extends" value="porchLight01" />
             <property name="CustomIcon" value="porchLight01" />
             <property name="CreativeMode" value="Player" />
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
             <property name="ItemTypeIcon" value="all_blocks" />
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="porchLight01_player,porchLight04_player,porchLight04Brass_player,ceilingLight01_player,ceilingLight02_player,ceilingLight02Brass_player,ceilingLight04_player,ceilingLight05_player,ceilingLight05Brass_player,ceilingLight07_player,wallLight01_player,streetLight01_player,streetLightClassic_player,industrialLight01_player,sconce1Light_player,industrialLight02_player,industrialLight02Red_player,ceilingFanLight_player,endTableLamp_player,deskLampLight_player,tableLampLight_player,xRayDisplayLight1_player,xRayDisplayLight2_player,roadBarricadeLight_player,signShopOpen_player,signExitLight_player,decoComputerDeskTopPC,decoComputerMonitorKeyboardMousePC,decoComputerMonitorKeyboardMouse,decoComputerMonitor" />
+            <property name="PlaceAltBlockValue" value="porchLight01_player,porchLight04_player,porchLight04Brass_player,ceilingLight01_player,ceilingLight02_player,ceilingLight02Brass_player,ceilingLight04_player,ceilingLight05_player,ceilingLight05Brass_player,ceilingLight07_player,wallLight01_player,streetLight01_player,streetLightClassic_player,industrialLight01_player,sconce1Light_player,industrialLight02_player,industrialLight02Red_player,ceilingFanLight_player,endTableLamp_player,deskLampLight_player,tableLampLight_player,xRayDisplayLight1_player,xRayDisplayLight2_player,roadBarricadeLight_player,signShopOpen_player,signExitLight_player,decoComputerDeskTopPC,decoComputerMonitorKeyboardMousePC,decoComputerMonitorKeyboardMouse,decoComputerMonitor,workLightPOI_player,chandelierLight_player,candelabraLight,recessedLight_player,trackLight_player,flashlightDecor_player,fluorescentLight_player" />
             <property name="Group" value="Building,advBuilding" />
         </block>
     </append>
-    -->
-</burpcraft>
+</burpcraft_blocks>
