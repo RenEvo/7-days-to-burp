@@ -28,9 +28,11 @@
 /Mods/JunctionBox/
 /Mods/Grasscutter/
 /Mods/KHA19-LockableInvSlots/
-/GameData/burpcraft/
+/GameData/[Bb]urpcraft*
 /GameData/PREGEN01/
 /GameData/profiles.sdf
 /GameData/GeneratedWorlds/
 /GameData/log.txt
 
+# don't include nitrogen binaries
+/scripts/NitroGen_WorldGenerator
