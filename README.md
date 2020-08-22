@@ -8,19 +8,18 @@ Additions to the game
 
 ### Crafting
 
-Some are disabled temporarly in A19
-
 * Added coal recipe to campfire 2 wood = 1 coal *requires cooking grill*
 * Added A17 barb wire recipe
-* ~~Added new iron door variant block (includes door frames)~~
-* ~~Added new wood door variant block (includes door/window frames)~~
-* ~~Added new lights variant block~~
-* ~~Added new technology decoration variant block~~
-* ~~Added new kitchen decoration variant block~~
-* ~~Added new construction decoration variant block~~
-* ~~Added new misc decoration variant block~~
-* ~~Added new chainlink fence variant block~~
-* ~~Added new picture variant block~~
+* Added new iron door variant block (includes door frames)
+* Added new wood door variant block (includes door/window frames)
+* Added new lights variant block
+* Added new technology decoration variant block
+* Added new kitchen decoration variant block
+* Added new construction decoration variant block
+* Added new misc decoration variant block
+* Added new chainlink fence variant block
+* Added new picture variant block
+* Added a lot more blocks, and moved all blocks to the burpcraft_blocks mod
 
 ## Changes
 
@@ -80,4 +79,5 @@ Currently using PREGEN01 for A19 initial fun times.
 
 * [Allocs Server Fixes](https://7dtd.illy.bz/wiki/Server%20fixes)
 * [JunctionBox](https://www.nexusmods.com/7daystodie/mods/199)
+* [Khaines Lockable Inventory Slots](https://7daystodiemods.com/lockable-inventory-slots/)
 

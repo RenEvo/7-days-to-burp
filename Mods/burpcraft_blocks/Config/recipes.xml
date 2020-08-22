@@ -22,9 +22,9 @@
 		<recipe name="woodWindowBlockVariantHelper" count="1">
 			<ingredient name="resourceWood" count="5" />
 		</recipe>
-		<recipe name="leatherFurnatureBlockVariantHelper" count="1">
+		<recipe name="leatherFurnitureBlockVariantHelper" count="1">
 			<ingredient name="resourceLeather" count="5" />
-			<ingredient name="resourceNails" count="10" />
+			<ingredient name="resourceNail" count="10" />
 			<ingredient name="resourceWood" count="10" />
 		</recipe>
 		<recipe name="paintingBlockVariantHelper" count="1">
@@ -42,9 +42,9 @@
 		<recipe name="alternateConcreteBlockVariantHelper" count="1">
 			<ingredient name="resourceCement" count="10" />
 		</recipe>
-		<recipe name="brickBlockVariantHelper" count="1" craft_area="forge" >
+		<recipe name="alternateBrickBlockVariantHelper" count="1" craft_area="forge" >
 			<ingredient name="resourceCement" count="10"/>
-			</recipe>
+		</recipe>
 		<recipe name="kitchenBlockVariantHelper" count="1" craft_area="workbench" >
 			<ingredient name="resourceForgedIron" count="3"/>
 			<ingredient name="resourceElectricParts" count="3"/>
@@ -62,11 +62,11 @@
 			<ingredient name="resourceRockSmall" count="10"/>
 		</recipe>
 		<recipe name="bulletproofWindowBlockVariantHelper" count="1" craft_area="forge" >
-			<ingredient name="resourceSand" count="137"/>
-			<ingredient name="resourceStone" count="12"/>
-			<ingredient name="resourceLead" count="50"/>
-			<ingredient name="resourceIron" count="25"/>
-			<ingredient name="resourceClay" count="25"/>
+			<ingredient name="resourceCrushedSand" count="137"/>
+			<ingredient name="resourceRockSmall" count="12"/>
+			<ingredient name="unit_lead" count="50"/>
+			<ingredient name="unit_iron" count="25"/>
+			<ingredient name="unit_clay" count="25"/>
 		</recipe>
 		<recipe name="roomDecorBlockVariantHelper" count="1" craft_area="workbench" >
 			<ingredient name="resourceForgedIron" count="3"/>
@@ -74,9 +74,8 @@
 			<ingredient name="resourceSpring" count="5"/>
 			<ingredient name="resourceMetalPipe" count="5"/>
 		</recipe>
-		-->
+
 		<!-- not currently gated by perks, but easier to craft with better skills -->
-		<!--
 		<recipe name="lightsVariantHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering">
 			<ingredient name="resourceForgedIron" count="4" />
 			<ingredient name="resourceElectricParts" count="4" />
@@ -85,4 +84,4 @@
 			</effect_group>
 		</recipe>
 	</append>
-</burpcraft>
+</burpcraft_blocks>

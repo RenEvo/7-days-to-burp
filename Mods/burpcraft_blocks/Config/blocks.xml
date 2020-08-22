@@ -8,7 +8,7 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
             <property name="ItemTypeIcon" value="all_blocks" />
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="ironDoor1_v1,commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1,doorFrameMetal1,doorFrameMetalBoarded1,doorFrameMetal2,doorFrameMetalBoarded2,jailDoorStatic,jailDoorStaticCentered,jailBars,doorTrimTop,doorTrim2m,doorTrimHalfm,doorTrim1m" />
+            <property name="PlaceAltBlockValue" value="ironDoor1_v1,commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1,doorFrameMetal1,doorFrameMetalBoarded1,doorFrameMetal2,doorFrameMetalBoarded2,jailDoorStatic,jailDoorStaticCentered,jailBars" />
             <property name="Group" value="Building,advBuilding" />
         </block>
         <block name="woodDoorBlockVariantHelper">
@@ -18,7 +18,7 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc" />
             <property name="ItemTypeIcon" value="all_blocks" />
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="secureDoorWooden,houseFrontDoor1_v1,houseFrontDoor2_v1,doorTrimTop,doorTrim2m,doorFrameWhite1,doorFrameWhiteBoarded1,doorFrameWhite2,doorFrameWhiteBoarded2,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimTop,woodWindowTrimSides,woodWindowTrimTopFancy" />
+            <property name="PlaceAltBlockValue" value="secureDoorWooden,houseFrontDoor1_v1,houseFrontDoor2_v1,doorTrimTop,doorTrim2m,doorTrimHalfm,doorTrim1m,doorFrameWhite1,doorFrameWhiteBoarded1,doorFrameWhite2,doorFrameWhiteBoarded2,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimTop,woodWindowTrimSides,woodWindowTrimTopFancy" />
             <property name="Group" value="Building,advBuilding" />
         </block>
         <block name="technologyBlockVariantHelper">
@@ -38,7 +38,7 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="utilitySink,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,cntIceMachine,wallHungSink,cntWashingMachine,cntWasherClosed,cntDryerClosed,cntLaundryBasketVer1Empty,cntTrashCompactor,cntMedicineCabinetOpen,cntGasGrillOpen,cntCharcoalGrillOpen,cntWoodBurningStove,cntMicrowaveOvenVer1Open,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial,cntTiltTruckEmpty,cntSodaFountain,cntWallOven,cntGraniteSink,cntBeerCooler,cntCharcoalGrillClosed,cntIceMachine,metalTablePillar0,decoTableRound"/>
+            <property name="PlaceAltBlockValue" value="utilitySink,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,cntIceMachine,wallHungSink,cntWashingMachine,cntWasherClosed,cntDryerClosed,cntLaundryBasketVer1Empty,cntTrashCompactor,cntMedicineCabinetOpen,cntGasGrillOpen,cntCharcoalGrillOpen,cntWoodBurningStove,cntMicrowaveOvenVer1Open,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial,cntTiltTruckEmpty,cntSodaFountain,cntWallOven,cntGraniteSink,cntBeerCooler,cntCharcoalGrillClosed,cntIceMachine,metalTablePillar0.025CTR,decoTableRound"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
         <block name="genericBlockVariantHelper">
@@ -68,7 +68,7 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="bunkBedMade,bunkBedMessy,bunkBedMattress,cntMedicineCabinetClosed,cntMedicineCabinetFaucetClosed,cntMedicineCabinetFaucetOpen,cntMedicineCabinetOpen,officeChair01,cntFileCabinetShortClosed,cntFileCabinetShortOpen,cntFileCabinetTallClosed,cntFileCabinetTallOpen,decoMannequinMale,decoMannequinFemale,decoLargePetCage,cntClothesShelfHalfEmpty,cntClothesShelfStackEmpty,wallClock,Mirror,radiatorHouse01,cntModularClosetOpen,cntModularClosetEnd,flagPoleAmerican,commercialBlindsTop,commercialBlindsBottom"/>
+            <property name="PlaceAltBlockValue" value="bunkBedMade,bunkBedMessy,bunkBedMattress,cntMedicineCabinetClosed,cntMedicineCabinetFaucetClosed,cntMedicineCabinetFaucetOpen,cntMedicineCabinetOpen,officeChair01,cntFileCabinetShortClosed,cntFileCabinetShortOpen,cntFileCabinetTallClosed,cntFileCabinetTallOpen,decoMannequinMale,decoMannequinFemale,decoLargePetCage,cntClothesShelfHalfEmpty,cntClothesShelfStackEmpty,wallClock,mirror,radiatorHouse01,cntModularClosetOpen,cntModularClosetEnd,flagPoleAmerican,commercialBlindsTop,commercialBlindsBottom"/>
             <property name="Group" value="Decor/Miscellaneous"/>
 		</block>
         <block name="constructionBlockVariantHelper">
@@ -78,10 +78,10 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="heatVent,heatVentIndustrial,cntGasPump,metalPipeCorner,metalPipeJoint,metalPipeFlange,metalPipeCap,pipeSmall1x1,pipeSmall1x3,pipeSmallCap,pipeSmallJoint,pipeSmallValve,pipeSmallCorner,birdBathPlanter,decoHoistChain,decoHoistSpreader,decoHoistHook,decoHoistMagnet,decoHoistTopMount,decoHandTruck,palletWhiteBagsBase,palletWhiteBagsTile,palletWhiteBagsTop,palletWhiteBagsPartial1,palletWhiteBagsPartial2,palletWhiteBagsLoose,palletBrownBoxesBase,palletBrownBoxesTile,palletBrownBoxesTop,palletBrownBoxesLoose,palletBricksBase,palletBricksTile,palletBricksTop,palletBricksPartial1,palletBricksPartial2,palletBricksLoose,palletBlueTarpBase,palletBlueTarpTile,palletCompressedCardboard,palletEmpty,palletEmptyStack,palletBlueTarpBase,palletBlueTarpTile,palletCompressedCardboard,palletEmpty,palletEmptyStack,chimneyPOI,chimneyBlackPOI"/>
+            <property name="PlaceAltBlockValue" value="heatVent,heatVentIndustrial,cntGasPump,metalPipeCorner,metalPipeJoint,metalPipeFlange,metalPipeCap,pipeSmall1x1,pipeSmall1x3,pipeSmallCap,pipeSmallJoint,pipeSmallValve,pipeSmallCorner,decoHoistChain,decoHoistSpreader,decoHoistHook,decoHoistMagnet,decoHoistTopMount,decoHandTruck,palletWhiteBagsBase,palletWhiteBagsTile,palletWhiteBagsTop,palletWhiteBagsPartial1,palletWhiteBagsPartial2,palletWhiteBagsLoose,palletBrownBoxesBase,palletBrownBoxesTile,palletBrownBoxesTop,palletBrownBoxesLoose,palletBlueTarpBase,palletBlueTarpTile,palletCompressedCardboard,palletEmpty,palletEmptyStack,palletBlueTarpBase,palletBlueTarpTile,palletCompressedCardboard,palletEmpty,palletEmptyStack,chimneyPOI,chimneyBlackPOI"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
-        <block name="brickBlockVariantHelper">
+        <block name="alternateBrickBlockVariantHelper">
             <property name="Extends" value="brickArch"/>
             <property name="CustomIcon" value="brickArch"/>
             <property name="CreativeMode" value="Player"/>
@@ -108,7 +108,7 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="sectionalLeatherCouchSofaArm,sectionalLeatherCouchSofaCorner,sectionalLeatherCouchSofaMiddle,chairCouchSofa01,couchSofa01,leatherCouchSofa2,leatherChairCouchSofa2"/>
+            <property name="PlaceAltBlockValue" value="couchSofa01,sectionalLeatherCouchSofaArm,sectionalLeatherCouchSofaCorner,sectionalLeatherCouchSofaMiddle,chairCouchSofa01,leatherCouchSofa2,leatherChairCouchSofa2"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
 		<block name="woodWindowBlockVariantHelper">
@@ -128,7 +128,7 @@
             <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
             <property name="ItemTypeIcon" value="all_blocks"/>
             <property name="SelectAlternates" value="true" />
-            <property name="PlaceAltBlockValue" value="windowStoreCornerBulletproof,windowStoreOneSidedBulletproof,windowStoreTwoSidedBulletproof,windowStoreThreeSidedBulletproof,windowStoreFourSidedBulletproof,glassBulletproofBlock,glassBulletproofCTRPlate,glassBulletproofPlate,glassBulletproofPlateCurved,glassBulletproofRamp,glassBulletproofRampSheet,glassOpaqueBulletproofCTRPlate,glassOpaqueBulletproofPlate"/>
+            <property name="PlaceAltBlockValue" value="glassBulletproofBlock,windowStoreCornerBulletproof,windowStoreOneSidedBulletproof,windowStoreTwoSidedBulletproof,windowStoreThreeSidedBulletproof,windowStoreFourSidedBulletproof,glassBulletproofCTRPlate,glassBulletproofPlate,glassBulletproofPlateCurved,glassBulletproofRamp,glassBulletproofRampSheet,glassOpaqueBulletproofCTRPlate,glassOpaqueBulletproofPlate"/>
             <property name="Group" value="Decor/Miscellaneous"/>
         </block>
 		<block name="alternateConcreteBlockVariantHelper">

@@ -32,9 +32,18 @@ constructionBlockVariantHelper,,blocks,Block,newKey,Construction Decorations
 chainLinkBlockVariantHelper,,blocks,Block,newKey,Chainlink Fence
 paintingBlockVariantHelper,,blocks,Block,newKey,Pictures
 roomDecorBlockVariantHelper,,blocks,Block,newKey,Room Decorations
-brickBlockVariantHelper,,blocks,Block,newKey,Brick Blocks
+alternateBrickBlockVariantHelper,,blocks,Block,newKey,Brick Blocks
 alternateWoodBlockVariantHelper,,blocks,Block,newKey,Alternate Wood Blocks
 leatherFurnitureBlockVariantHelper,,blocks,Block,newKey,Leather Furniture
 woodWindowBlockVariantHelper,,blocks,Block,newKey,Wood Windows
 bulletproofWindowBlockVariantHelper,,blocks,Block,newKey,Bullet Proof Windows
 alternateConcreteBlockVariantHelper,,blocks,Block,newKey,Alternate Concrete Blocks
+workLightPOI_player,,blocks,Block,newKey,Work Light
+recessedLight_player,,blocks,Block,newKey,Recessed Light
+trackLight_player,,blocks,Block,newKey,Track Light
+fluorescentLight_player,,blocks,Block,newKey,Flourescent Light
+flashlightDecor_player,,blocks,Block,newKey,Flashlight
+chimneyPOI,,blocks,Block,newKey,Chimney Light
+chimneyBlackPOI,,blocks,Block,newKey,Chimney Dark
+cntClothesRackRectangleEmpty2,,blocks,Block,newKey,Clothes Rack
+wallHungSink,,blocks,Block,newKey,Well Hung Sink
