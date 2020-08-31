@@ -80,4 +80,5 @@ Currently using PREGEN01 for A19 initial fun times.
 * [Allocs Server Fixes](https://7dtd.illy.bz/wiki/Server%20fixes)
 * [JunctionBox](https://www.nexusmods.com/7daystodie/mods/199)
 * [Khaines Lockable Inventory Slots](https://7daystodiemods.com/lockable-inventory-slots/)
+* [Z2 - HUD](https://github.com/Sirillion/Z2)
 
