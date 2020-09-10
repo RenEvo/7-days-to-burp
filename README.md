@@ -53,6 +53,7 @@ Changes to the game
 * Increased the block damage of the Auger by roughly 2.2x
 * Increased the range of the Auger by 1.5 blocks
 * Increased the variance of tiers to Auger to make a lvl 6 worth getting over a lvl 5, etc...
+* Decreased the use delay on hammers and nail guns
 
 ### Spawning
 

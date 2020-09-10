@@ -41,7 +41,6 @@
     <set xpath="/items/item[@name='foodCropPumpkin']/property[@name='Stacknumber']/@value">500</set>
     <set xpath="/items/item[@name='foodCropPotato']/property[@name='Stacknumber']/@value">500</set>
 
-
     <!-- Health -->
     <set xpath="/items/item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">50</set>
     <set xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']/@value">20</set>
@@ -102,6 +101,10 @@
 
     <!-- TOOLS -->
     <set xpath="/items/item[@name='toolBeaker']/property[@name='Stacknumber']/@value">20</set>
+
+    <!-- faster hammer and nail gun -->
+	<set xpath="/items/item[@name='gunToolNailgun']/property[@class='Action1']/property[@name='Delay' and @value='.73']/@value">0.20</set>
+	<set xpath="/items/item[@name='meleeToolClawHammer']/property[@class='Action1']/property[@name='Delay' and @value='.64']/@value">0.35</set>
 
     <!-- Auger Tweaks (more damage, more spread on tiers, and longer reach) -->
     <set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='BlockDamage' and @operation='base_set']/@value">50</set><!-- 20.7 default -->
