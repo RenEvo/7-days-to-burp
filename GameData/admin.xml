@@ -76,7 +76,9 @@
         <!-- <user steamID="" name="" /> -->
         <!-- <group steamID="" name="" /> -->
         <user steamID="76561197969618392"  />
-        <user steamID="76561198165130563"  />
+        <!-- try this out later -->
+        <!-- <group steamID="103582791433362112" name="burpcraft" /> -->
+        <user steamID="76561198165130563" name="RenEvo"  />
         <user steamID="76561198126980759"  />
         <user steamID="76561197971008541"  />
         <user steamID="76561197970820129"  />
@@ -92,7 +94,7 @@
         <user steamID="76561197961074073"  />
         <user steamID="76561198052121335"  />
         <user steamID="76561198093708037"  />
-        <user steamID="76561197960287930"  />
+        <user steamID="76561198169213629"  />
     </whitelist>
 
     <!-- Name is optional for display purposes only -->
