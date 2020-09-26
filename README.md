@@ -82,4 +82,5 @@ Currently using PREGEN01 for A19 initial fun times.
 * [JunctionBox](https://www.nexusmods.com/7daystodie/mods/199)
 * [Khaines Lockable Inventory Slots](https://7daystodiemods.com/lockable-inventory-slots/)
 * [Z2 - HUD](https://github.com/Sirillion/Z2)
+* [Z2 TB10 Patch](https://github.com/Sirillion/Z2TB10)
 
